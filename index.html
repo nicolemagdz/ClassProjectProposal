@@ -1,10 +1,117 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Project Proposal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Class Project Proposal</h1>
+    <header>
+        <h1>Class Project Proposal</h1>
+        <p>Nicole Magdziasz</p>
+    </header>
+
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#app-ovrvw">Application Overview</a>
+                <a href="#tech-ovrvw">Technology Overview</a>
+                <a href="#feat-list">Feature List</a>
+                <a href="#future-feat">Future Features</a>
+                <a href="#basic-tech-feat">Basic Technological Features</a>
+                <a href="#adv-tech-feat">Advanced Technological Features</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="overview">
+            <h2>Application Overview</h2>
+            <p>
+                The concept of this project is a web application designed for users
+                to track their daily diet and intake. Users can enter their meals 
+                and specify the portion sizes for each food item. The app provides
+                detailed feedback on caloric intake, protein, vitamins, and other
+                crucial nutrition data. It allows users to review their nutritional
+                data on a daily, weekly, or even monthly basis for an overlook of
+                their diet habits.
+            </p>
+        </section>
+
+        <section id="technology">
+            <h2>Technology Overview</h2>
+            <ul>
+                <li><strong>Languages:</strong>
+                    Go, 
+                    HTML, 
+                    CSS, 
+                    JavaScript
+                </li>
+                <li><strong>Libraries:</strong>
+                    GraphQL with Go
+                </li>
+                <li><strong>Platform:</strong>
+                    Docker
+                </li>
+                <li><strong>Hosting:</strong>
+                    Static Web Server (hosted on Azure) with basic
+                    .html, .js, and .css files
+                </li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <h2>Feature List</h2>
+            <ol>
+                <li>Food intake logging for each meal with portion size details</li>
+                <li>Daily caloric intake tracking</li>
+                <li>Nutrition breakdown (calories, sugars, etc.)</li>
+                <li>Weekly and monthly summary views</li>
+                <li>Simple GraphQL API for handling food data</li>
+            </ol>
+        </section>
+
+        <section id="future-features">
+            <h2>Future Features</h2>
+            <ul>
+                <li>Ability to set personal dietary goals</li>
+                <li>Meal planning recommendations based on past data</li>
+                <li>Enhanced data security with user authentication</li>
+            </ul>
+        </section>
+
+        <section id="basic-tech-features">
+            <h2>Basic Technological Features</h2>
+            <ul>
+                <li>
+                    Basic web server hosting with static HTML, CSS, and
+                    JavaScript files
+                </li>
+                <li>Integration of a simple public API (FoodData Central)</li>
+                <li>Setup of Go Docker container for the application</li>
+            </ul>
+        </section>
+
+        <section id="advanced-tech-features">
+            <h2>Advanced Technological Features</h2>
+            <ul>
+                <li>Custom GraphQL API with Go</li>
+                <li>Implementation of a simple, insecure API</li>
+                <li>Weekly and monthly aggregated data reporting</li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="back-to-top-cont">
+        <a href="#top" class="back-to-top">Back to Top</a>
+    </div>
+
+    <footer>
+        <h5>Last Updated: November 3, 2024</h5>
+        <h6>2024 Class Project<h6>
+    </footer>
+
 </body>
 </html>
